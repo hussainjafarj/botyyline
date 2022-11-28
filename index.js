@@ -52,20 +52,6 @@ i18n.configure({
   }
 });
 
-client.on('message', message => {
-  if (message.content.startsWith('خط')) {
-    return message.channel.send('https://media.discordapp.net/attachments/983386931209580584/1044622350185938954/FB653D8B-87EC-4A34-A8C5-678FBE3305E0.png')
-  }
-});
-
-// Code Auto Line
-client.on("message", message => {
-if(message.author.bot) return;
-if(message.channel.id == "1014043906456961064") { /// اي دي روم الخط
-message.channel.send("https://media.discordapp.net/attachments/983386931209580584/1044622350185938954/FB653D8B-87EC-4A34-A8C5-678FBE3305E0.png") /// رابط الخط
-} else { return; }
-})
-
 // Code Auto Line
 client.on("message", message => {
 if(message.author.bot) return;
